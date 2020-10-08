@@ -1,0 +1,53 @@
+
+.pelicula_card_overview{
+    height: 150px;
+    overflow: hidden;
+}
+
+.card img{
+    height: 400px;
+    background-size: cover;
+}
+
+.card-all{
+	cursor: pointer;
+}
+
+.card-all:hover{
+	filter: grayscale(100%);
+}
+
+.card-title{
+	color: black;
+}
+
+.card-title:hover{
+	text-decoration: underline;
+}
+
+.card-text{
+	color: black;
+}
+
+.card-text:hover{
+	text-decoration: underline;
+}
+
+#info_peliculas{
+/*	background-image: cover;
+*/
+}
+
+.imagen2{
+	position: absolute;
+	width: 1000px;
+}
+
+.boton_atras{
+	margin-top: 520px;
+	position: relative;
+	margin-left: 450px;
+	border-style: none;
+	background-color: white;
+	color: black;
+}
